@@ -89,8 +89,6 @@ $ node app.js
 #### Output:
 
 Sample
-<br />
-<br />
-![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/screenshots/startFabric.png)
+![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/startFabric.png)
 <br />
 <br />
