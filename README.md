@@ -89,7 +89,6 @@ $ node app.js
 #### Output:
 
 "./startFabric.sh" example:
-<br />
 ![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/startFabric.png)
 <br />
 <br />
