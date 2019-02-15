@@ -92,3 +92,18 @@ $ node app.js
 ![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/startFabric.png)
 <br />
 <br />
+
+"node enrollAdmin.js" example:
+![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/enrollAdmin.png)
+<br />
+<br />
+
+"node registerUser.js" example:
+![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/registerUser.png)
+<br />
+<br />
+
+"node app.js" example:
+![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/app.png)
+<br />
+<br />
