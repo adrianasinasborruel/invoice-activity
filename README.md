@@ -78,7 +78,7 @@ After downloading the fabric-samples and blockchain-training-labs:
 </pre>
 
 #### Step 3:
-Access terminal in "fabric-samples/invoice" directory. Then run the following commands: <br />
+Access terminal in "fabric-samples/invoice" directory. Then run the following commands:
 <pre> 
 $ ./startFabric.sh
 $ npm install
@@ -87,6 +87,10 @@ $ node registerUser.js
 $ node app.js
 </pre>
 #### Output:
-##### "./startFabric.sh" example.
-![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/screenshots/startFabric.png)<br />
 
+Sample
+<br />
+<br />
+![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/screenshots/startFabric.png)
+<br />
+<br />
