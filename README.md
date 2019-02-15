@@ -88,5 +88,5 @@ $ node app.js
 </pre>
 #### Output:
 ##### "./startFabric.sh" example.
-![alt_text](https://github.com/adrianasinasborruel/invoice-activity/tree/master/blob/screenshots/startFabric.png)<br />
+![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/screenshots/startFabric.png)<br />
 
