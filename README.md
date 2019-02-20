@@ -88,22 +88,69 @@ $ node app.js
 </pre>
 #### Output:
 
-"./startFabric.sh" example:
+**"./startFabric.sh" example:**
 ![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/startFabric.png)
 <br />
 <br />
 
-"node enrollAdmin.js" example:
+**"node enrollAdmin.js" example:**
 ![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/enrollAdmin.png)
 <br />
 <br />
 
-"node registerUser.js" example:
+**"node registerUser.js" example:**
 ![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/registerUser.png)
 <br />
 <br />
 
-"node app.js" example:
+**"node app.js" example:**
 ![alt_text](https://github.com/adrianasinasborruel/invoice-activity/blob/master/blob/screenshots/app.png)
 <br />
 <br />
+
+#### Step 4:
+To test out the endpoints, we need "POSTMAN" or "INSOMNIA" rest client.
+#### Endpoints' Testing:
+#### Display all invoices:
+<pre> http://localhost:3000/ </pre>
+Use the http GET request to retrieve the data.
+<br />
+
+#### Create Invoice:
+<pre> http://localhost:3000/invoice </pre>
+Use the http POST request to input and push data. **NOTE**: Select the "Form URL Encoded" as a structure. For the parameters:
+<br />
++ username
++ invoiceId
++ invoiceNumber
++ billedTo
++ invoiceDate
++ invoiceAmount
++ itemDescription
++ gr (Default value = false)
++ isPaid (Default value = false)
++ paidAmount (Default value = 0.00)
++ isRepaid (Default value = false)
+
+#### Goods Received:
+Use the http PUT request to modify and update data. **NOTE**: Select the "Form URL Encoded" as a structure. For the parameters:
+<br />
++ username
++ invoiceid
++ gr
+
+#### Payment from Bank to Supplier
+<pre> http://localhost:3000/invoice </pre>
+Use the http PUT request to modify and update data. **NOTE**: Select the "Form URL Encoded" as a structure. For the parameters:
+<br />
++ username
++ invoiceid
++ ispaid
+
+#### Repayment of OEM to Bank
+<pre> http://localhost:3000/invoice </pre>
+Use the http PUT request to modify and update data. **NOTE**: Select the "Form URL Encoded" as a structure. For the parameters:
+<br />
++ username
++ invoiceid
++ isrepaid
